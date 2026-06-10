@@ -1,0 +1,59 @@
+{
+  "lastUpdated": "2024-06-01",
+  "lifts": [
+    {
+      "name": "Squat",
+      "current": 120,
+      "target": 150,
+      "unit": "kg",
+      "icon": "🏋️",
+      "progress": 80,
+      "history": [
+        { "date": "2024-01", "weight": 100 },
+        { "date": "2024-02", "weight": 105 },
+        { "date": "2024-03", "weight": 110 },
+        { "date": "2024-04", "weight": 115 },
+        { "date": "2024-05", "weight": 120 }
+      ]
+    },
+    {
+      "name": "Bench Press",
+      "current": 90,
+      "target": 100,
+      "unit": "kg",
+      "icon": "💪",
+      "progress": 90,
+      "history": [
+        { "date": "2024-01", "weight": 75 },
+        { "date": "2024-02", "weight": 80 },
+        { "date": "2024-03", "weight": 82.5 },
+        { "date": "2024-04", "weight": 87.5 },
+        { "date": "2024-05", "weight": 90 }
+      ]
+    },
+    {
+      "name": "Deadlift",
+      "current": 150,
+      "target": 180,
+      "unit": "kg",
+      "icon": "⚡",
+      "progress": 83,
+      "history": [
+        { "date": "2024-01", "weight": 120 },
+        { "date": "2024-02", "weight": 130 },
+        { "date": "2024-03", "weight": 140 },
+        { "date": "2024-04", "weight": 145 },
+        { "date": "2024-05", "weight": 150 }
+      ]
+    }
+  ],
+  "sprints": [
+    { "distance": "100m", "time": "12.4s", "date": "2024-05-20" },
+    { "distance": "400m", "time": "56.2s", "date": "2024-05-15" }
+  ],
+  "bodyStats": {
+    "weight": 78,
+    "height": 178,
+    "trainingDays": 5
+  }
+}

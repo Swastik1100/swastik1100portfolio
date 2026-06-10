@@ -1,0 +1,17 @@
+{
+  "lastUpdated": "2024-06-10T08:00:00Z",
+  "totalHoursThisWeek": 32.5,
+  "dailyAverage": "4h 38m",
+  "topLanguages": [
+    { "name": "TypeScript", "percent": 42, "color": "#3178C6" },
+    { "name": "Python",     "percent": 28, "color": "#3776AB" },
+    { "name": "Go",         "percent": 18, "color": "#00ADD8" },
+    { "name": "CSS",        "percent": 8,  "color": "#1572B6" },
+    { "name": "Other",      "percent": 4,  "color": "#888888" }
+  ],
+  "topProjects": [
+    { "name": "velox",   "hours": 14 },
+    { "name": "cerebro", "hours": 11 },
+    { "name": "portfolio","hours": 7.5 }
+  ]
+}

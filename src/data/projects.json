@@ -1,0 +1,43 @@
+[
+  {
+    "id": "proj-1",
+    "index": "01",
+    "title": "Velox — Real-time Chat Platform",
+    "tagline": "Sub-100ms latency. Zero compromise.",
+    "description": "A production-grade WebSocket chat application handling 10k+ concurrent connections with Go backend, Redis pub/sub, and React frontend. Custom rate limiter prevents spam while maintaining UX.",
+    "tags": ["Full-Stack", "Real-time", "Distributed"],
+    "stack": ["Go", "Redis", "React", "TypeScript", "WebSockets", "Docker"],
+    "liveUrl": "https://velox-demo.vercel.app",
+    "repoUrl": "https://github.com/yourusername/velox",
+    "image": "/projects/velox.jpg",
+    "year": "2024",
+    "featured": true
+  },
+  {
+    "id": "proj-2",
+    "index": "02",
+    "title": "Cerebro — AI Study Companion",
+    "tagline": "Learn faster. Retain longer.",
+    "description": "An AI-powered study tool using spaced repetition and the Feynman technique. RAG pipeline on personal notes generates quiz questions and identifies knowledge gaps automatically.",
+    "tags": ["AI/ML", "EdTech", "Productivity"],
+    "stack": ["Python", "LangChain", "Next.js", "Supabase", "OpenAI", "FastAPI"],
+    "liveUrl": "https://cerebro-ai.vercel.app",
+    "repoUrl": "https://github.com/yourusername/cerebro",
+    "image": "/projects/cerebro.jpg",
+    "year": "2024",
+    "featured": true
+  },
+  {
+    "id": "proj-3",
+    "index": "03",
+    "title": "TrailKit — Outdoor Trip Planner",
+    "tagline": "The map is just the beginning.",
+    "description": "A full-stack trip planning app with offline PWA support, custom route elevation profiling, and weather integration. Handles complex GPX data parsing and terrain analysis.",
+    "tags": ["Maps", "PWA", "Geospatial"],
+    "stack": ["React", "Node.js", "PostgreSQL", "Leaflet.js", "Express"],
+    "repoUrl": "https://github.com/yourusername/trailkit",
+    "image": "/projects/trailkit.jpg",
+    "year": "2023",
+    "featured": false
+  }
+]

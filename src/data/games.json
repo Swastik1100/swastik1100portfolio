@@ -1,0 +1,50 @@
+[
+  {
+    "id": "g1",
+    "title": "Elden Ring",
+    "platform": "PC",
+    "genre": "Action RPG",
+    "status": "completed",
+    "rating": 10,
+    "hours": 120,
+    "review": "The Lands Between is the greatest open world ever designed. Every cliff hides a secret.",
+    "coverColor": "#1A1A2E",
+    "year": "2022"
+  },
+  {
+    "id": "g2",
+    "title": "Baldur's Gate 3",
+    "platform": "PC",
+    "genre": "RPG",
+    "status": "playing",
+    "rating": 10,
+    "hours": 80,
+    "review": "Every conversation feels consequential. The writing is from another dimension.",
+    "coverColor": "#16213E",
+    "year": "2023"
+  },
+  {
+    "id": "g3",
+    "title": "Red Dead Redemption 2",
+    "platform": "PC",
+    "genre": "Action Adventure",
+    "status": "completed",
+    "rating": 10,
+    "hours": 90,
+    "review": "Arthur Morgan is the best written character in gaming history. Period.",
+    "coverColor": "#2D1B00",
+    "year": "2020"
+  },
+  {
+    "id": "g4",
+    "title": "Hollow Knight",
+    "platform": "PC",
+    "genre": "Metroidvania",
+    "status": "completed",
+    "rating": 9,
+    "hours": 45,
+    "review": "A masterclass in atmosphere. The world feels ancient and unknowable.",
+    "coverColor": "#0F0F1A",
+    "year": "2021"
+  }
+]

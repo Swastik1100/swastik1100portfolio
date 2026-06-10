@@ -1,0 +1,87 @@
+[
+  {
+    "stateId": "IN-DL",
+    "stateName": "Delhi",
+    "status": "lived",
+    "emoji": "🏙️",
+    "memories": [
+      { "year": "2019-2023", "highlight": "Home base — Connaught Place all-nighters, IIT Delhi campus life, metro stories at 1am.", "photoUrl": null },
+      { "year": "2022", "highlight": "First startup pitch at a Lajpat Nagar co-working space. We didn't get funded. Best failure.", "photoUrl": null }
+    ]
+  },
+  {
+    "stateId": "IN-RJ",
+    "stateName": "Rajasthan",
+    "status": "visited",
+    "emoji": "🏰",
+    "memories": [
+      { "year": "2023", "highlight": "Jaisalmer desert camp — sleeping under 10,000 stars with no phone signal for 3 days.", "photoUrl": null },
+      { "year": "2021", "highlight": "Rode a motorcycle from Jaipur to Pushkar at sunrise. The highway was empty and golden.", "photoUrl": null }
+    ]
+  },
+  {
+    "stateId": "IN-GA",
+    "stateName": "Goa",
+    "status": "visited",
+    "emoji": "🌊",
+    "memories": [
+      { "year": "2022", "highlight": "December beach trip with college friends. Watched a football match at midnight in a shack bar.", "photoUrl": null }
+    ]
+  },
+  {
+    "stateId": "IN-HP",
+    "stateName": "Himachal Pradesh",
+    "status": "visited",
+    "emoji": "🏔️",
+    "memories": [
+      { "year": "2023", "highlight": "Spiti Valley circuit — Chandratal Lake at 4,300m altitude. Air is thin. Silence is loud.", "photoUrl": null },
+      { "year": "2021", "highlight": "Solang Valley in winter — first time I saw actual avalanche warnings. Stayed anyway.", "photoUrl": null }
+    ]
+  },
+  {
+    "stateId": "IN-KA",
+    "stateName": "Karnataka",
+    "status": "visited",
+    "emoji": "💻",
+    "memories": [
+      { "year": "2023", "highlight": "Bengaluru for a hackathon. Won second place. The chai at 3am kept us going.", "photoUrl": null },
+      { "year": "2022", "highlight": "Coorg coffee estate stay — woke up inside clouds every morning. Best coffee of my life.", "photoUrl": null }
+    ]
+  },
+  {
+    "stateId": "IN-KL",
+    "stateName": "Kerala",
+    "status": "visited",
+    "emoji": "🌴",
+    "memories": [
+      { "year": "2023", "highlight": "Alleppey houseboat — drifting through backwaters with a book, masala chai, and zero agenda.", "photoUrl": null }
+    ]
+  },
+  {
+    "stateId": "IN-MH",
+    "stateName": "Maharashtra",
+    "status": "visited",
+    "emoji": "🌆",
+    "memories": [
+      { "year": "2023", "highlight": "Mumbai for internship. Local train at rush hour is a rite of passage for every Indian.", "photoUrl": null }
+    ]
+  },
+  {
+    "stateId": "IN-UP",
+    "stateName": "Uttar Pradesh",
+    "status": "visited",
+    "emoji": "🕌",
+    "memories": [
+      { "year": "2020", "highlight": "Varanasi ghat at dawn — watched Ganga Aarti. The oldest city in the world still feels alive.", "photoUrl": null }
+    ]
+  },
+  {
+    "stateId": "IN-TN",
+    "stateName": "Tamil Nadu",
+    "status": "want",
+    "emoji": "🛕",
+    "memories": [
+      { "year": "?", "highlight": "On the list: Madurai Meenakshi temple + drive down ECR to Pondicherry.", "photoUrl": null }
+    ]
+  }
+]
