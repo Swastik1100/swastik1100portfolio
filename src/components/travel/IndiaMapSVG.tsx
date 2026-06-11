@@ -116,8 +116,8 @@ export function IndiaMapSVG({ onStateHover }: Props) {
     const travel = TRAVEL_MAP[travelId];
     if (!travel) {
       return isHovered
-        ? "hsl(var(--elevated))"
-        : "hsl(var(--ink-dim))";
+        ? "hsl(var(--surface))"
+        : "hsl(var(--surface))";
     }
     const color = STATUS_COLORS[travel.status];
     if (isHovered) return color.fill;
@@ -157,7 +157,7 @@ export function IndiaMapSVG({ onStateHover }: Props) {
               className={isActive ? "cursor-pointer" : "cursor-default"}
               initial={false}
               animate={{
-                opacity: isHov ? 1 : isActive ? 0.9 : 0.5,
+                opacity: isHov ? 1 : isActive ? 0.9 : 0.85,
                 scale: isHov ? 1.01 : 1,
               }}
               transition={{ type: "tween", duration: 0.15 }}

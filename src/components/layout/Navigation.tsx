@@ -8,7 +8,7 @@
 import { useState } from "react";
 import Link          from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, ArrowUpRight } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useLiveTime }  from "@/hooks/useLiveTime";
 
 const NAV_LINKS = [
@@ -20,7 +20,7 @@ const NAV_LINKS = [
 ];
 
 export function Navbar() {
-  const { timeString, tzString }  = useLiveTime("Asia/Kolkata");
+  const { timeString }  = useLiveTime("Asia/Kolkata");
   const [menuOpen, setMenuOpen]   = useState(false);
   const [scrolled,  setScrolled]  = useState(false);
 
@@ -37,7 +37,7 @@ export function Navbar() {
       <header
         className={`
           fixed top-0 left-0 right-0 z-50
-          flex items-center justify-between
+          flex items-center justify-center
           px-6 lg:px-10
           transition-all duration-500
           ${scrolled
@@ -46,53 +46,13 @@ export function Navbar() {
           }
         `}
       >
-        {/* Logo */}
-        <Link
-          href="/"
-          className="font-display font-black tracking-tight text-ink-primary leading-none"
-          style={{ fontSize: scrolled ? "1rem" : "1.15rem" }}
-        >
-          YN<span className="text-ink-muted">®</span>
-        </Link>
+        {/* ── Centre: Live India Time ──────────────────── */}
+        <span className="text-xs text-ink-secondary font-mono tabular-nums">
+          {timeString}
+        </span>
 
-        {/* ── Centre: Availability + Clock ──────────────────── */}
-        <div className="hidden md:flex items-center gap-8 text-xs text-ink-secondary font-mono">
-          {/* Green pulsing dot + status */}
-          <div className="flex items-center gap-2">
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent-green opacity-75" />
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-accent-green" />
-            </span>
-            <span className="text-ink-primary">Available for opportunities</span>
-          </div>
-
-          {/* Divider */}
-          <span className="text-border">|</span>
-
-          {/* Live clock */}
-          <span className="tabular-nums">
-            {timeString}{" "}
-            <span className="text-ink-muted">({tzString})</span>
-          </span>
-        </div>
-
-        {/* ── Right: CTA + Hamburger ─────────────────────────── */}
-        <div className="flex items-center gap-3">
-          <Link
-            href="#contact"
-            className="
-              hidden md:inline-flex items-center gap-1.5
-              px-5 py-2 rounded-full
-              border border-ink-primary/20
-              text-ink-primary text-sm font-medium
-              hover:bg-ink-primary hover:text-bg-primary
-              transition-all duration-300
-            "
-          >
-            LET&apos;S TALK
-            <ArrowUpRight size={14} />
-          </Link>
-
+        {/* ── Right: Hamburger ─────────────────────────── */}
+        <div className="absolute right-6 lg:right-10 flex items-center">
           <button
             onClick={() => setMenuOpen((v) => !v)}
             className="

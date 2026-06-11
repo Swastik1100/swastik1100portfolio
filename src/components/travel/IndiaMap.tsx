@@ -224,7 +224,7 @@ export function IndiaMapCard({ onStateHover }: Props) {
                         default: { outline: "none", transition: "fill 0.2s ease" },
                         hover:   { outline: "none", fill: isHovered && TRAVEL_MAP[geo.id]
                           ? stateColor(geo.id, false)
-                          : "#2A2A2A",
+                          : "#29bb05",
                           filter: "brightness(1.3)"
                         },
                         pressed: { outline: "none" },

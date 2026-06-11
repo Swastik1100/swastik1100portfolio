@@ -3,8 +3,8 @@
   "lifts": [
     {
       "name": "Squat",
-      "current": 120,
-      "target": 150,
+      "current": 80,
+      "target": 100,
       "unit": "kg",
       "icon": "🏋️",
       "progress": 80,
@@ -33,11 +33,11 @@
     },
     {
       "name": "Deadlift",
-      "current": 150,
-      "target": 180,
+      "current": 80,
+      "target": 100,
       "unit": "kg",
       "icon": "⚡",
-      "progress": 83,
+      "progress": 80,
       "history": [
         { "date": "2024-01", "weight": 120 },
         { "date": "2024-02", "weight": 130 },
@@ -48,12 +48,12 @@
     }
   ],
   "sprints": [
-    { "distance": "100m", "time": "12.4s", "date": "2024-05-20" },
-    { "distance": "400m", "time": "56.2s", "date": "2024-05-15" }
+    { "distance": "100m", "time": "13.4s", "date": "2026-06-10" },
+    { "distance": "400m", "time": "66.2s", "date": "2026-06-10" }
   ],
   "bodyStats": {
-    "weight": 78,
-    "height": 178,
+    "weight": 64,
+    "height": 174,
     "trainingDays": 5
   }
 }

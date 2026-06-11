@@ -2,7 +2,7 @@
   {
     "stateId": "IN-DL",
     "stateName": "Delhi",
-    "status": "lived",
+    "status": "visited",
     "emoji": "🏙️",
     "photos": [
       "/travel/delhi-1.jpg",
@@ -11,8 +11,8 @@
       "/travel/delhi-4.jpg"
     ],
     "memories": [
-      { "year": "2019-2023", "highlight": "Home base — Connaught Place all-nighters, IIT Delhi campus life, metro stories at 1am.", "photoUrl": null },
-      { "year": "2022", "highlight": "First startup pitch at a Lajpat Nagar co-working space. We didn't get funded. Best failure.", "photoUrl": null }
+      { "year": "2026", "highlight": "I'm convinced the universe broke the bus, the Metro, and the clock at 10:00 PM just to see if I can actually unlock superhero speed to catch that train", "photoUrl": null }
+      
     ]
   },
   {
@@ -103,7 +103,7 @@
   {
     "stateId": "IN-UP",
     "stateName": "Uttar Pradesh",
-    "status": "visited",
+    "status": "lived",
     "emoji": "🕌",
     "photos": [
       "/travel/up-1.jpg",
