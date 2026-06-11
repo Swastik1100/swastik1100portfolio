@@ -40,7 +40,7 @@ const COLORS = {
   visited:  "#EF3B2D",   // red — visited
   lived:    "#F59E0B",   // amber — lived in
   want:     "#3B82F6",   // blue — want to go
-  default:  "#1A1A1A",   // dark — unvisited
+  default:  "#ffffff",   // white — unvisited
   hover:    "#333333",
 } as const;
 
@@ -218,7 +218,7 @@ export function IndiaMapCard({ onStateHover }: Props) {
                       key={geo.rsmKey}
                       geography={geo as never}
                       fill={stateColor(geo.id, isHovered)}
-                      stroke="#0A0A0A"
+                      stroke="#ffffff"
                       strokeWidth={0.8}
                       style={{
                         default: { outline: "none", transition: "fill 0.2s ease" },

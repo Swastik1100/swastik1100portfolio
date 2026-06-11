@@ -63,6 +63,7 @@ export interface TravelState {
   stateName:   string;
   status:      VisitStatus;
   emoji:       string;
+  photos:      string[];     // paths in /public/travel/ e.g. "/travel/delhi-1.jpg"
   memories:    TravelMemory[];
 }
 

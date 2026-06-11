@@ -4,6 +4,12 @@
     "stateName": "Delhi",
     "status": "lived",
     "emoji": "🏙️",
+    "photos": [
+      "/travel/delhi-1.jpg",
+      "/travel/delhi-2.jpg",
+      "/travel/delhi-3.jpg",
+      "/travel/delhi-4.jpg"
+    ],
     "memories": [
       { "year": "2019-2023", "highlight": "Home base — Connaught Place all-nighters, IIT Delhi campus life, metro stories at 1am.", "photoUrl": null },
       { "year": "2022", "highlight": "First startup pitch at a Lajpat Nagar co-working space. We didn't get funded. Best failure.", "photoUrl": null }
@@ -14,6 +20,12 @@
     "stateName": "Rajasthan",
     "status": "visited",
     "emoji": "🏰",
+    "photos": [
+      "/travel/rajasthan-1.jpg",
+      "/travel/rajasthan-2.jpg",
+      "/travel/rajasthan-3.jpg",
+      "/travel/rajasthan-4.jpg"
+    ],
     "memories": [
       { "year": "2023", "highlight": "Jaisalmer desert camp — sleeping under 10,000 stars with no phone signal for 3 days.", "photoUrl": null },
       { "year": "2021", "highlight": "Rode a motorcycle from Jaipur to Pushkar at sunrise. The highway was empty and golden.", "photoUrl": null }
@@ -24,6 +36,10 @@
     "stateName": "Goa",
     "status": "visited",
     "emoji": "🌊",
+    "photos": [
+      "/travel/goa-1.jpg",
+      "/travel/goa-2.jpg"
+    ],
     "memories": [
       { "year": "2022", "highlight": "December beach trip with college friends. Watched a football match at midnight in a shack bar.", "photoUrl": null }
     ]
@@ -33,6 +49,12 @@
     "stateName": "Himachal Pradesh",
     "status": "visited",
     "emoji": "🏔️",
+    "photos": [
+      "/travel/himachal-1.jpg",
+      "/travel/himachal-2.jpg",
+      "/travel/himachal-3.jpg",
+      "/travel/himachal-4.jpg"
+    ],
     "memories": [
       { "year": "2023", "highlight": "Spiti Valley circuit — Chandratal Lake at 4,300m altitude. Air is thin. Silence is loud.", "photoUrl": null },
       { "year": "2021", "highlight": "Solang Valley in winter — first time I saw actual avalanche warnings. Stayed anyway.", "photoUrl": null }
@@ -43,6 +65,10 @@
     "stateName": "Karnataka",
     "status": "visited",
     "emoji": "💻",
+    "photos": [
+      "/travel/karnataka-1.jpg",
+      "/travel/karnataka-2.jpg"
+    ],
     "memories": [
       { "year": "2023", "highlight": "Bengaluru for a hackathon. Won second place. The chai at 3am kept us going.", "photoUrl": null },
       { "year": "2022", "highlight": "Coorg coffee estate stay — woke up inside clouds every morning. Best coffee of my life.", "photoUrl": null }
@@ -53,6 +79,10 @@
     "stateName": "Kerala",
     "status": "visited",
     "emoji": "🌴",
+    "photos": [
+      "/travel/kerala-1.jpg",
+      "/travel/kerala-2.jpg"
+    ],
     "memories": [
       { "year": "2023", "highlight": "Alleppey houseboat — drifting through backwaters with a book, masala chai, and zero agenda.", "photoUrl": null }
     ]
@@ -62,6 +92,10 @@
     "stateName": "Maharashtra",
     "status": "visited",
     "emoji": "🌆",
+    "photos": [
+      "/travel/maharashtra-1.jpg",
+      "/travel/maharashtra-2.jpg"
+    ],
     "memories": [
       { "year": "2023", "highlight": "Mumbai for internship. Local train at rush hour is a rite of passage for every Indian.", "photoUrl": null }
     ]
@@ -71,6 +105,10 @@
     "stateName": "Uttar Pradesh",
     "status": "visited",
     "emoji": "🕌",
+    "photos": [
+      "/travel/up-1.jpg",
+      "/travel/up-2.jpg"
+    ],
     "memories": [
       { "year": "2020", "highlight": "Varanasi ghat at dawn — watched Ganga Aarti. The oldest city in the world still feels alive.", "photoUrl": null }
     ]
@@ -80,6 +118,7 @@
     "stateName": "Tamil Nadu",
     "status": "want",
     "emoji": "🛕",
+    "photos": [],
     "memories": [
       { "year": "?", "highlight": "On the list: Madurai Meenakshi temple + drive down ECR to Pondicherry.", "photoUrl": null }
     ]

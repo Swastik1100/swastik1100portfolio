@@ -6,7 +6,7 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { MapPin, Compass } from "lucide-react";
-import { IndiaMapCard } from "@/components/travel/IndiaMap";
+import { IndiaMapSVG } from "@/components/travel/IndiaMapSVG";
 import travelData from "@/data/travel.json";
 import type { TravelState } from "@/types";
 
@@ -122,9 +122,9 @@ export function TravelSection({
         initial={{ opacity: 0, y: 40 }}
         animate={isInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.7, delay: 0.15 }}
-        className="min-h-[600px] lg:min-h-[700px] mb-20"
+        className="mb-20 py-8"
       >
-        <IndiaMapCard onStateHover={onStateHover} />
+        <IndiaMapSVG onStateHover={onStateHover} />
       </motion.div>
 
       {/* ── Travel Memories Timeline ─────────────────────────── */}
