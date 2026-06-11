@@ -1,0 +1,183 @@
+/* ============================================================
+   globals.css — Design-system foundation
+   Themes: Light (default) · Dark Developer · Cyberpunk / Synthwave
+   ============================================================ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── BASE LAYER — CSS custom properties ────────────────────── */
+@layer base {
+  /* ── LIGHT THEME (Default) ────────────────────────────────── */
+  :root,
+  [data-theme="light"] {
+    --background: 0 0% 97%;
+    --foreground: 0 0% 9%;
+    --surface: 0 0% 100%;
+    --elevated: 0 0% 95%;
+    --overlay: 0 0% 97%;
+
+    --ink-primary: 0 0% 9%;
+    --ink-secondary: 0 0% 40%;
+    --ink-muted: 0 0% 65%;
+    --ink-dim: 0 0% 9% / 0.06;
+
+    --accent: 6 87% 55%;
+    --accent-green: 145 63% 42%;
+    --accent-blue: 217 91% 60%;
+    --accent-amber: 38 92% 50%;
+
+    --border: 0 0% 9% / 0.08;
+    --border-hover: 0 0% 9% / 0.16;
+
+    --card-bg: 0 0% 100%;
+    --card-shadow: 0 1px 3px hsl(0 0% 0% / 0.08),
+                   0 0 0 1px hsl(0 0% 0% / 0.04);
+    --card-shadow-hover: 0 8px 32px hsl(0 0% 0% / 0.10),
+                         0 0 0 1px hsl(0 0% 0% / 0.06);
+
+    --scrollbar-track: hsl(0 0% 93%);
+    --scrollbar-thumb: hsl(0 0% 75%);
+    --scrollbar-thumb-hover: hsl(0 0% 60%);
+
+    color-scheme: light;
+  }
+
+  /* ── DARK DEVELOPER THEME ─────────────────────────────────── */
+  [data-theme="dark"] {
+    --background: 0 0% 4%;
+    --foreground: 0 0% 100%;
+    --surface: 0 0% 7%;
+    --elevated: 0 0% 10%;
+    --overlay: 0 0% 5%;
+
+    --ink-primary: 0 0% 100%;
+    --ink-secondary: 0 0% 53%;
+    --ink-muted: 0 0% 27%;
+    --ink-dim: 0 0% 100% / 0.06;
+
+    --accent: 6 87% 55%;
+    --accent-green: 145 63% 42%;
+    --accent-blue: 217 91% 60%;
+    --accent-amber: 38 92% 50%;
+
+    --border: 0 0% 100% / 0.08;
+    --border-hover: 0 0% 100% / 0.16;
+
+    --card-bg: 0 0% 7%;
+    --card-shadow: 0 1px 3px hsl(0 0% 0% / 0.5),
+                   0 0 0 1px hsl(0 0% 100% / 0.05);
+    --card-shadow-hover: 0 8px 32px hsl(0 0% 0% / 0.6),
+                         0 0 0 1px hsl(0 0% 100% / 0.10);
+
+    --scrollbar-track: hsl(0 0% 8%);
+    --scrollbar-thumb: hsl(0 0% 22%);
+    --scrollbar-thumb-hover: hsl(0 0% 35%);
+
+    color-scheme: dark;
+  }
+
+  /* ── CYBERPUNK / SYNTHWAVE THEME ──────────────────────────── */
+  [data-theme="cyberpunk"] {
+    --background: 270 50% 5%;
+    --foreground: 180 100% 90%;
+    --surface: 270 40% 8%;
+    --elevated: 270 35% 12%;
+    --overlay: 270 50% 4%;
+
+    --ink-primary: 180 100% 90%;
+    --ink-secondary: 270 30% 65%;
+    --ink-muted: 270 20% 35%;
+    --ink-dim: 180 100% 90% / 0.06;
+
+    --accent: 320 100% 60%;
+    --accent-green: 160 100% 50%;
+    --accent-blue: 200 100% 60%;
+    --accent-amber: 50 100% 55%;
+
+    --border: 270 50% 40% / 0.25;
+    --border-hover: 320 100% 60% / 0.4;
+
+    --card-bg: 270 40% 8%;
+    --card-shadow: 0 0 30px hsl(320 100% 60% / 0.1),
+                   0 0 0 1px hsl(270 50% 40% / 0.3);
+    --card-shadow-hover: 0 0 50px hsl(320 100% 60% / 0.2),
+                         0 0 0 1px hsl(320 100% 60% / 0.4);
+
+    --scrollbar-track: hsl(270 50% 8%);
+    --scrollbar-thumb: hsl(320 80% 45%);
+    --scrollbar-thumb-hover: hsl(320 100% 60%);
+
+    color-scheme: dark;
+  }
+
+  /* ── GLOBAL RESETS ────────────────────────────────────────── */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+
+  /* ── Selection colours ───────────────────────────────────── */
+  ::selection {
+    background: hsl(var(--accent) / 0.3);
+    color: hsl(var(--foreground));
+  }
+}
+
+/* ─── CUSTOM SCROLLBAR ──────────────────────────────────────── */
+@layer utilities {
+  /* WebKit (Chrome, Safari, Edge) */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--scrollbar-track);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--scrollbar-thumb-hover);
+  }
+
+  /* Firefox */
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+  }
+
+  /* ── Theme transition utility ──────────────────────────────── */
+  .theme-transition,
+  .theme-transition *,
+  .theme-transition *::before,
+  .theme-transition *::after {
+    transition: background-color 0.3s ease,
+                color 0.3s ease,
+                border-color 0.3s ease,
+                box-shadow 0.3s ease,
+                fill 0.3s ease,
+                stroke 0.3s ease !important;
+  }
+}

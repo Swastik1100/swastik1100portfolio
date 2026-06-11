@@ -30,7 +30,7 @@ import type { TravelState, TooltipData } from "@/types";
 const GEO_URL = "/india-states.topojson";
 
 // ─── Build a lookup map by stateId ───────────────────────────
-const TRAVEL_MAP = (travelData as TravelState[]).reduce<Record<string, TravelState>>(
+const TRAVEL_MAP = (travelData as unknown as TravelState[]).reduce<Record<string, TravelState>>(
   (acc, s) => { acc[s.stateId] = s; return acc; },
   {}
 );
@@ -159,7 +159,7 @@ export function IndiaMapCard({ onStateHover }: Props) {
     { color: COLORS.want,    label: "Want to"  },
   ];
 
-  const visitedCount = (travelData as TravelState[]).filter(
+  const visitedCount = (travelData as unknown as TravelState[]).filter(
     (s) => s.status === "visited" || s.status === "lived"
   ).length;
 
@@ -210,13 +210,13 @@ export function IndiaMapCard({ onStateHover }: Props) {
         >
           <ZoomableGroup zoom={1} maxZoom={4} minZoom={1}>
             <Geographies geography={GEO_URL}>
-              {({ geographies }) =>
-                geographies.map((geo) => {
+              {({ geographies }: { geographies: Array<{ rsmKey: string; id: string }> }) =>
+                geographies.map((geo: { rsmKey: string; id: string }) => {
                   const isHovered = hoveredId === geo.id;
                   return (
                     <Geography
                       key={geo.rsmKey}
-                      geography={geo}
+                      geography={geo as never}
                       fill={stateColor(geo.id, isHovered)}
                       stroke="#0A0A0A"
                       strokeWidth={0.8}
@@ -229,7 +229,7 @@ export function IndiaMapCard({ onStateHover }: Props) {
                         },
                         pressed: { outline: "none" },
                       }}
-                      onMouseEnter={(e) => handleEnter(geo, e as unknown as React.MouseEvent)}
+                      onMouseEnter={(e: React.MouseEvent) => handleEnter(geo, e)}
                       onMouseLeave={handleLeave}
                       aria-label={geo.id}
                     />

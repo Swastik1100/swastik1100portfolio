@@ -13,10 +13,10 @@
 import { useRef, useCallback, useState }        from "react";
 import { motion, useInView }                   from "framer-motion";
 import { Clock, BookOpen, Gamepad2, Code2, Zap } from "lucide-react";
-import { SpotifyWidget }  from "@/components/widgets/SpotifyWidget";
-import { GymPRCard }      from "@/components/widgets/GymPRCard";
-import { IndiaMapCard }   from "@/components/widgets/IndiaMapCard";
-import { TerminalWidget } from "@/components/widgets/TerminalWidget";
+import { SpotifyWidget }  from "@/components/bento/cards/SpotifyWidget";
+import { GymPRCard }      from "@/components/bento/cards/GymPRCard";
+import { IndiaMapCard }   from "@/components/travel/IndiaMap";
+import { TerminalWidget } from "@/components/terminal/TerminalWidget";
 import wakaData           from "@/data/wakatime-stats.json";
 import gamesData          from "@/data/games.json";
 import booksData          from "@/data/books.json";

@@ -105,7 +105,7 @@ export function useAchievements() {
       // Persist to localStorage
       const next = new Set(prev).add(id);
       try {
-        localStorage.setItem(LS_KEY, JSON.stringify([...next]));
+        localStorage.setItem(LS_KEY, JSON.stringify(Array.from(next)));
       } catch { /* no-op */ }
 
       return next;

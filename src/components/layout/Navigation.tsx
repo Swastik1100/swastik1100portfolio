@@ -14,7 +14,7 @@ import { useLiveTime }  from "@/hooks/useLiveTime";
 const NAV_LINKS = [
   { label: "Work",      href: "#work"      },
   { label: "About",     href: "#about"     },
-  { label: "Lifestyle", href: "#lifestyle" },
+  { label: "Lifestyle", href: "/lifestyle" },
   { label: "Terminal",  href: "#terminal"  },
   { label: "Contact",   href: "#contact"   },
 ];

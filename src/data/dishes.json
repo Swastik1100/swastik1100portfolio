@@ -1,0 +1,98 @@
+[
+  {
+    "id": "d1",
+    "name": "Butter Chicken",
+    "cuisine": "Indian",
+    "difficulty": "medium",
+    "emoji": "🍗",
+    "description": "Rich tomato-cream gravy with tender chicken. Naan mandatory.",
+    "date": "2024-05",
+    "rating": 5,
+    "tags": ["non-veg", "curry", "comfort-food"],
+    "color": "#C0392B"
+  },
+  {
+    "id": "d2",
+    "name": "Cacio e Pepe",
+    "cuisine": "Italian",
+    "difficulty": "easy",
+    "emoji": "🍝",
+    "description": "Three ingredients. Infinite skill ceiling. Pecorino, pepper, pasta water.",
+    "date": "2024-06",
+    "rating": 4,
+    "tags": ["pasta", "minimalist", "quick"],
+    "color": "#F5E6CA"
+  },
+  {
+    "id": "d3",
+    "name": "Dal Makhani",
+    "cuisine": "Indian",
+    "difficulty": "hard",
+    "emoji": "🫘",
+    "description": "Slow-cooked black lentils with butter and cream. 6-hour simmer. Worth every minute.",
+    "date": "2024-04",
+    "rating": 5,
+    "tags": ["veg", "slow-cook", "comfort-food"],
+    "color": "#1A1A0A"
+  },
+  {
+    "id": "d4",
+    "name": "Pad Thai",
+    "cuisine": "Thai",
+    "difficulty": "medium",
+    "emoji": "🍜",
+    "description": "Tamarind sauce, rice noodles, peanuts, lime. The wok hei makes or breaks it.",
+    "date": "2024-03",
+    "rating": 4,
+    "tags": ["asian", "noodles", "stir-fry"],
+    "color": "#E67E22"
+  },
+  {
+    "id": "d5",
+    "name": "Paneer Tikka",
+    "cuisine": "Indian",
+    "difficulty": "easy",
+    "emoji": "🧀",
+    "description": "Charred paneer cubes marinated in spiced yogurt. Smoky, tangy, addictive.",
+    "date": "2024-02",
+    "rating": 5,
+    "tags": ["veg", "grill", "appetizer"],
+    "color": "#D35400"
+  },
+  {
+    "id": "d6",
+    "name": "Japanese Ramen",
+    "cuisine": "Japanese",
+    "difficulty": "hard",
+    "emoji": "🍜",
+    "description": "Tonkotsu broth from scratch — 12 hours of bone simmering. The egg was perfect.",
+    "date": "2024-01",
+    "rating": 5,
+    "tags": ["soup", "noodles", "slow-cook"],
+    "color": "#F9E4B7"
+  },
+  {
+    "id": "d7",
+    "name": "Masala Dosa",
+    "cuisine": "Indian",
+    "difficulty": "hard",
+    "emoji": "🫓",
+    "description": "Crispy fermented rice crepe with spiced potato filling. South Indian perfection.",
+    "date": "2023-12",
+    "rating": 4,
+    "tags": ["veg", "breakfast", "fermented"],
+    "color": "#DAA520"
+  },
+  {
+    "id": "d8",
+    "name": "Chocolate Lava Cake",
+    "cuisine": "French",
+    "difficulty": "medium",
+    "emoji": "🍫",
+    "description": "Molten center, crisp shell. Timing is everything — 12 minutes exactly.",
+    "date": "2024-05",
+    "rating": 5,
+    "tags": ["dessert", "chocolate", "baking"],
+    "color": "#3E1F0D"
+  }
+]
